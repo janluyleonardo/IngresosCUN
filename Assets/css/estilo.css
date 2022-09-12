@@ -1,0 +1,47 @@
+html, body {
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-weight: bold;
+  min-height: 100% !important;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.background {
+  background-image: url("../images/fondo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  min-height: 100%;
+}
+
+.btnIngreso {
+  text-decoration: none;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #0C2340;
+  border-radius: 6px;
+  border: 2px solid #ffffff;
+}
+.card-body{
+  background-color: #ffffff;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+@media only screen and (max-width: 920px){
+  .imagen{
+    display: none;
+  }
+}
